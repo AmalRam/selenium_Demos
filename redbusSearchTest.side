@@ -1,0 +1,143 @@
+{
+  "id": "277e2a03-7ed2-4f8d-9aac-5074f9d95660",
+  "version": "2.0",
+  "name": "https://www.redbus.in/",
+  "url": "https://www.redbus.in",
+  "tests": [{
+    "id": "29ca3ab2-b1dc-4e0d-b73e-d68f2392db23",
+    "name": "test03",
+    "commands": [{
+      "id": "c84d1b57-f010-477f-9505-e75f5b53e101",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c01aaf6f-cf1a-4e6e-8ccf-cc5a97c68cc9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "890x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d0d8cf9-9a8f-4278-b0a4-3440e00911ad",
+      "comment": "",
+      "command": "click",
+      "target": "id=src",
+      "targets": [
+        ["id=src", "id"],
+        ["css=#src", "css:finder"],
+        ["xpath=//input[@id='src']", "xpath:attributes"],
+        ["xpath=//section[@id='search']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21373a49-ad78-4701-9059-130680add480",
+      "comment": "",
+      "command": "click",
+      "target": "id=src",
+      "targets": [
+        ["id=src", "id"],
+        ["css=#src", "css:finder"],
+        ["xpath=//input[@id='src']", "xpath:attributes"],
+        ["xpath=//section[@id='search']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e05a8cd0-c91a-4c10-8de7-4799c0280d2a",
+      "comment": "",
+      "command": "type",
+      "target": "id=src",
+      "targets": [
+        ["id=src", "id"],
+        ["css=#src", "css:finder"],
+        ["xpath=//input[@id='src']", "xpath:attributes"],
+        ["xpath=//section[@id='search']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Ben"
+    }, {
+      "id": "d39e4afc-cd2b-4119-9a2d-978ca81b98f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selected",
+      "targets": [
+        ["css=.selected", "css:finder"],
+        ["xpath=//section[@id='search']/div/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Bengaluru')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7060c4d-0623-4467-b276-d7056095da46",
+      "comment": "",
+      "command": "type",
+      "target": "id=dest",
+      "targets": [
+        ["id=dest", "id"],
+        ["css=#dest", "css:finder"],
+        ["xpath=//input[@id='dest']", "xpath:attributes"],
+        ["xpath=//section[@id='search']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Coc"
+    }, {
+      "id": "f2cc6efe-d167-44a5-bac7-0b72440b6e84",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selected",
+      "targets": [
+        ["css=.selected", "css:finder"],
+        ["xpath=//section[@id='search']/div/div[2]/div/ul/li", "xpath:idRelative"],
+        ["xpath=//section/div/div[2]/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Cochin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fd4ce8b-6d1e-4c6f-b212-afd4786a214a",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_btn",
+      "targets": [
+        ["id=search_btn", "id"],
+        ["css=#search_btn", "css:finder"],
+        ["xpath=//button[@id='search_btn']", "xpath:attributes"],
+        ["xpath=//section[@id='search']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search Buses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "facf39d9-a912-4b68-876a-60b1fd960c92",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-close",
+      "targets": [
+        ["css=.icon-close", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/i", "xpath:idRelative"],
+        ["xpath=//div[3]/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9a6c629-6081-460a-aa5d-3cc1923215e3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3b1e73aa-a000-4941-8d7c-36554f61cddc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["29ca3ab2-b1dc-4e0d-b73e-d68f2392db23"]
+  }],
+  "urls": ["https://www.redbus.in/"],
+  "plugins": []
+}

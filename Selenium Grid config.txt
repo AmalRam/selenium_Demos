@@ -1,0 +1,10 @@
+	
+
+1. Download selenium-server-standalone-3.141.59.jar from official website and store in 3 locations(hub, node1,node2)
+2. from hub location, opem cmd--> java -jar selenium-server-standalone-3.141.59.jar -role hub
+3. Open localhost:4444 and check grid console
+4. go to node1 folder and open cmd from there and --> java -Dwebdriver.chrome.driver="E:\chromedriver.exe" -Dwebdriver.gecko.driver="E:\geckodriver.exe" -jar selenium-server-standalone-3.141.59.jar -role node -hub http://192.168.1.103:4444/grid/register -port 6002
+5. go to node2 folder and open cmd from there and --> java -Dwebdriver.chrome.driver="E:\chromedriver.exe" -Dwebdriver.gecko.driver="E:\geckodriver.exe" -jar selenium-server-standalone-3.141.59.jar -role node -hub http://192.168.1.103:4444/grid/register -port 6003
+6. Refresh grid console in localhost browser
+
+Note: chromedriver. exe and geckodriver.exe should be present in their repective location.

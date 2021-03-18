@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-04T16:13:32 IST" name="Default suite" finished-at="2021-02-04T16:14:01 IST" duration-ms="28652">
+    <groups>
+    </groups>
+    <test started-at="2021-02-04T16:13:32 IST" name="Default test" finished-at="2021-02-04T16:14:01 IST" duration-ms="28652">
+      <class name="com.SeleniumApachePOI.AppTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.SeleniumApachePOI.AppTest@4bb33f74]" started-at="2021-02-04T16:13:32 IST" name="init" finished-at="2021-02-04T16:13:50 IST" duration-ms="17373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyLoginTest01(java.lang.String, java.lang.String)[pri:0, instance:com.SeleniumApachePOI.AppTest@4bb33f74]" started-at="2021-02-04T16:13:53 IST" name="verifyLoginTest01" data-provider="testData" finished-at="2021-02-04T16:14:01 IST" duration-ms="7692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest01 -->
+      </class> <!-- com.SeleniumApachePOI.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite3]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="OrangeHRMLoginGridTest(failed)">
+    <classes>
+      <class name="com.stackroute.selenium.gridTest.ChromeLoginTest">
+        <methods>
+          <include name="verifyLogin"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.stackroute.selenium.gridTest.ChromeLoginTest -->
+    </classes>
+  </test> <!-- OrangeHRMLoginGridTest(failed) -->
+</suite> <!-- Failed suite [Suite3] -->

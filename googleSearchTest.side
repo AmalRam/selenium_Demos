@@ -1,0 +1,123 @@
+{
+  "id": "39b8b7f2-29f1-4086-bc06-ce644e8fcca9",
+  "version": "2.0",
+  "name": "https://www.google.com/",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "4d002115-3318-4f23-a0ab-882ed7624d53",
+    "name": "test02",
+    "commands": [{
+      "id": "225f82b9-398d-43ee-8438-3fd3bbfd9f1a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40d4fa0e-667a-4226-b31f-ef24abc7d859",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "890x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46259f13-a1b1-43ef-95e4-735ddae8290e",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd726dca-97bb-4e21-bc73-59ac6f77915e",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "linkedin"
+    }, {
+      "id": "920047c7-39cb-447f-b119-2a06fb7ac69e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "dc3428af-5c8e-4fbe-abf7-8902e4771665",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .tF2Cxc:nth-child(2) .LC20lb > span",
+      "targets": [
+        ["css=div:nth-child(2) > .tF2Cxc:nth-child(2) .LC20lb > span", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/a/h3/span", "xpath:idRelative"],
+        ["xpath=//h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'LinkedIn India: Log In or Sign Up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "966f5310-c78a-4008-bc2a-8edd657be3f1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Learn a new skill",
+      "targets": [
+        ["linkText=Learn a new skill", "linkText"],
+        ["css=li:nth-child(3) > .intent-module__button", "css:finder"],
+        ["xpath=//a[contains(text(),'Learn a new skill')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://in.linkedin.com/learning/search?trk=homepage-basic_intent-module-learning')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Learn a new skill')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81a2f15a-2daf-4947-a7d6-f3731235c16a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=business-nav-education",
+      "targets": [
+        ["id=business-nav-education", "id"],
+        ["linkText=Higher Education", "linkText"],
+        ["css=#business-nav-education", "css:finder"],
+        ["xpath=//a[contains(text(),'Higher Education')]", "xpath:link"],
+        ["xpath=//a[@id='business-nav-education']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, 'https://learning.linkedin.com/for-higher-education?src=li-learning-nav&trk=learning-serp_enterprise-nav&upsellOrderOrigin=homepage-basic_intent-module-learning')]", "xpath:href"],
+        ["xpath=//div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Higher Education')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2a233bd-26b1-4781-807e-6f05288d9f87",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1404f47a-67d0-432d-a695-607804c61fb4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4d002115-3318-4f23-a0ab-882ed7624d53"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

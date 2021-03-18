@@ -1,0 +1,194 @@
+{
+  "id": "8e1c2a91-d9e3-4091-aa11-4890c624bab5",
+  "version": "2.0",
+  "name": "AmazonSearchTest",
+  "url": "https://www.amazon.in",
+  "tests": [{
+    "id": "0e77c841-eac7-49ec-9abe-2f593aa78c0a",
+    "name": "test01",
+    "commands": [{
+      "id": "049fea52-954b-45e4-9c6d-ed801080a11d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24e3d77c-aa7b-4a45-ae0f-7bb84d648b57",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5876d35-8567-486d-a1fb-36ebbfbf541c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Best Sellers",
+      "targets": [
+        ["linkText=Best Sellers", "linkText"],
+        ["css=#nav-xshop > .nav-a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Best Sellers')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gp/bestsellers/?ref_=nav_cs_bestsellers_69937679092e4f01b7d94f6c4993082a')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Best Sellers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ea61ce3-def5-4bf0-a77c-f244ed8d9e7c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#JGgYJeXJyTQ8JFgu-EP6rg .a-section:nth-child(1) > .a-section:nth-child(2) .landscape-image",
+      "targets": [
+        ["css=#JGgYJeXJyTQ8JFgu-EP6rg .a-section:nth-child(1) > .a-section:nth-child(2) .landscape-image", "css:finder"],
+        ["xpath=//img[@alt='Home decoration']", "xpath:img"],
+        ["xpath=//div[@id='JGgYJeXJyTQ8JFgu-EP6rg']/div[2]/div/div[2]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div[2]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31e2aa24-6240-45ba-ae52-9bb984f5afa1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=nav-link-prime",
+      "targets": [
+        ["id=nav-link-prime", "id"],
+        ["linkText=Prime", "linkText"],
+        ["css=#nav-link-prime", "css:finder"],
+        ["xpath=//a[@id='nav-link-prime']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-xshop']/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/prime?ref_=nav_cs_primelink_nonmember_acd9c47f81bc48bfadda0e32da886e52')]", "xpath:href"],
+        ["xpath=//div[5]/div[2]/div/div/a[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "217cfd39-871f-40d9-a5f1-4c04167feef3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=nav-link-prime",
+      "targets": [
+        ["id=nav-link-prime", "id"],
+        ["linkText=Prime", "linkText"],
+        ["css=#nav-link-prime", "css:finder"],
+        ["xpath=//a[@id='nav-link-prime']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-xshop']/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/prime?ref_=nav_cs_primelink_nonmember_acd9c47f81bc48bfadda0e32da886e52')]", "xpath:href"],
+        ["xpath=//div[5]/div[2]/div/div/a[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93f54fda-4acd-4206-8b8b-501008d940b8",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchDropdownBox",
+      "targets": [
+        ["id=searchDropdownBox", "id"],
+        ["name=url", "name"],
+        ["css=#searchDropdownBox", "css:finder"],
+        ["xpath=//select[@id='searchDropdownBox']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-search-dropdown-card']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5831ecef-e484-4ef2-b36b-9fb525f1dabe",
+      "comment": "",
+      "command": "select",
+      "target": "id=searchDropdownBox",
+      "targets": [],
+      "value": "label=Computers & Accessories"
+    }, {
+      "id": "db4d55f4-bce7-48de-9ad5-89196a763abd",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchDropdownBox",
+      "targets": [
+        ["id=searchDropdownBox", "id"],
+        ["name=url", "name"],
+        ["css=#searchDropdownBox", "css:finder"],
+        ["xpath=//select[@id='searchDropdownBox']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-search-dropdown-card']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a61c9481-401c-4e4a-8264-afc025ed50f9",
+      "comment": "",
+      "command": "click",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f6fc5cd-e343-41f3-83f7-86f55ad103c6",
+      "comment": "",
+      "command": "type",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "led screen"
+    }, {
+      "id": "1cd0ae93-8f65-46e8-bfd6-c87c73e1c802",
+      "comment": "",
+      "command": "click",
+      "target": "id=nav-search-submit-button",
+      "targets": [
+        ["id=nav-search-submit-button", "id"],
+        ["css=#nav-search-submit-button", "css:finder"],
+        ["xpath=//input[@id='nav-search-submit-button']", "xpath:attributes"],
+        ["xpath=//span[@id='nav-search-submit-text']/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6e7667f-88f4-49aa-8e56-5581c98fcc06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_multi-card-creative-desktop_BackgroundLink_link__2nWGt:nth-child(2)",
+      "targets": [
+        ["css=.\\_multi-card-creative-desktop_BackgroundLink_link__2nWGt:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='CardInstancesihEN-TP9ikQ-Y99RCt7pA']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://aax-eu.amazon.in/x/c/QrjcR2ZBVrvxp1VNgcMO_8YAAAF3YlR6PQMAAAH2AXgTr_E/https://www.amazon.in/stores/page/46DB033A-92AF-4660-A7FE-8E099724E298/?_encoding=UTF8&store_ref=SB_A039937111J2VOAH6XPT&pd_rd_plhdr=t&aaxitk=PgycbbFWPvpjbhi5.lHF9A&hsa_cr_id=4642671830702&lp_asins=B08CH2BXV8%2CB07K25HB8N%2CB07S957FFX&lp_mat_key=category%3D%221375425031%22%20rating%3D2-5&lp_query=led%20screen&lp_slot=auto-sparkle-hsa-tetris&ref_=sbx_be_s_sparkle_mcd_bkgd&pd_rd_w=j29J4&pf_rd_p=278da5e5-bea3-4309-a099-569b9312a94e&pd_rd_wg=N1YKn&pf_rd_r=2HCZZR6GZ5QXZQTQN2JC&pd_rd_r=ed8f74d6-2911-4d0c-b7d1-ca23005a193f')]", "xpath:href"],
+        ["xpath=//span/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24f1703f-b474-4b15-a7e5-4e02265abb2c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,680)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a78db64-08fb-43f4-90d3-98347458782a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "507f0d16-cc35-40c6-bbc2-9e597440a00b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0e77c841-eac7-49ec-9abe-2f593aa78c0a"]
+  }],
+  "urls": ["https://www.amazon.in/"],
+  "plugins": []
+}
